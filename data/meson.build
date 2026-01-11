@@ -1,6 +1,6 @@
 blueprints = custom_target('blueprints',
   input: files(
-    'ui/ShortcutsWindow.blp',
+    'shortcuts-dialog.blp',
     'ui/BoxedList.blp',
     'ui/Form.blp',
     'ui/HelpDialog.blp',
