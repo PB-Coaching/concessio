@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-17 15:39+0300\n"
+"POT-Creation-Date: 2026-01-11 22:16+0300\n"
 "PO-Revision-Date: 2025-01-12 18:01-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,31 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/ui/BoxedList.ui:12 data/ui/HelpDialog.ui:67
+#: data/ui/BoxedList.blp:13 data/ui/HelpDialog.blp:65
 msgid "User"
 msgstr "Usuário"
 
-#: data/ui/BoxedList.ui:21 data/ui/BoxedList.ui:89 data/ui/BoxedList.ui:157
+#: data/ui/BoxedList.blp:23 data/ui/BoxedList.blp:87 data/ui/BoxedList.blp:151
 msgid "Read"
 msgstr "Leitura"
 
-#: data/ui/BoxedList.ui:36 data/ui/BoxedList.ui:104 data/ui/BoxedList.ui:172
+#: data/ui/BoxedList.blp:37 data/ui/BoxedList.blp:101 data/ui/BoxedList.blp:165
 msgid "Write"
 msgstr "Escrita"
 
-#: data/ui/BoxedList.ui:51 data/ui/BoxedList.ui:119 data/ui/BoxedList.ui:187
+#: data/ui/BoxedList.blp:51 data/ui/BoxedList.blp:115 data/ui/BoxedList.blp:179
 msgid "Execute"
 msgstr "Execução"
 
-#: data/ui/BoxedList.ui:80 data/ui/HelpDialog.ui:78
+#: data/ui/BoxedList.blp:77 data/ui/HelpDialog.blp:75
 msgid "Group"
 msgstr "Grupo"
 
-#: data/ui/BoxedList.ui:148 data/ui/HelpDialog.ui:89
+#: data/ui/BoxedList.blp:141 data/ui/HelpDialog.blp:85
 msgid "Others"
 msgstr "Outros"
 
-#: data/ui/BoxedList.ui:247 data/ui/HelpDialog.ui:261
+#: data/ui/BoxedList.blp:236 data/ui/HelpDialog.blp:247
 msgid ""
 "Executes the file with the permissions of the file owner, not the user "
 "running it."
@@ -49,7 +49,7 @@ msgstr ""
 "Executa o arquivo com as permissões do proprietário do arquivo, não do "
 "usuário que está executando."
 
-#: data/ui/BoxedList.ui:288 data/ui/HelpDialog.ui:267
+#: data/ui/BoxedList.blp:274 data/ui/HelpDialog.blp:252
 msgid ""
 "Executes the file with the permissions of the file's group, or ensures new "
 "files in a directory inherit the group."
@@ -57,7 +57,7 @@ msgstr ""
 "Executa o arquivo com as permissões do grupo do arquivo ou garante que os "
 "novos arquivos em um diretório herdem o grupo."
 
-#: data/ui/BoxedList.ui:329 data/ui/HelpDialog.ui:273
+#: data/ui/BoxedList.blp:312 data/ui/HelpDialog.blp:257
 msgid ""
 "Allows only the file owner or directory owner to delete files in the "
 "directory, even if others have write permissions. Only applies to "
@@ -67,27 +67,27 @@ msgstr ""
 "arquivos no diretório, mesmo que outras pessoas tenham permissões de "
 "escrita. Aplica-se somente a diretórios e não tem efeito sobre arquivos."
 
-#: data/ui/Form.ui:16
+#: data/ui/Form.blp:14
 msgid "Numeric"
 msgstr "Numérica"
 
-#: data/ui/Form.ui:25 data/ui/Form.ui:49
+#: data/ui/Form.blp:23 data/ui/Form.blp:45
 msgid "Copy value"
 msgstr "Copiar"
 
-#: data/ui/Form.ui:40
+#: data/ui/Form.blp:36
 msgid "Symbolic"
 msgstr "Simbólica"
 
-#: data/ui/HelpDialog.ui:13 data/ui/Window.ui:140
+#: data/ui/HelpDialog.blp:14 data/ui/Window.blp:124
 msgid "Help"
 msgstr "Ajuda"
 
-#: data/ui/HelpDialog.ui:37
+#: data/ui/HelpDialog.blp:35
 msgid "Unix Permissions"
 msgstr "Permissões Unix"
 
-#: data/ui/HelpDialog.ui:46
+#: data/ui/HelpDialog.blp:44
 msgid ""
 "The Unix permissions system is used to grant granulated access to file and "
 "directories on a Unix-like operating system"
@@ -95,40 +95,40 @@ msgstr ""
 "O sistema de permissões do Unix é utilizado para conceder acesso granular a "
 "arquivos e diretórios em um sistema operacional do tipo Unix"
 
-#: data/ui/HelpDialog.ui:52
+#: data/ui/HelpDialog.blp:49
 msgid "Permissions are granted to three groups:"
 msgstr "As permissões são concedidas a três grupos:"
 
-#: data/ui/HelpDialog.ui:68
+#: data/ui/HelpDialog.blp:66
 msgid "The owner of the file"
 msgstr "O proprietário do arquivo"
 
-#: data/ui/HelpDialog.ui:79
+#: data/ui/HelpDialog.blp:76
 msgid "A group of users who share access to the file"
 msgstr "Um grupo de usuários que compartilham o acesso ao arquivo"
 
-#: data/ui/HelpDialog.ui:90
+#: data/ui/HelpDialog.blp:86
 msgid "All other users on the system"
 msgstr "Todos os outros usuários do sistema"
 
-#: data/ui/HelpDialog.ui:102
+#: data/ui/HelpDialog.blp:96
 msgid "The types of permissions are:"
 msgstr "Os tipos de permissões são:"
 
-#: data/ui/HelpDialog.ui:117
+#: data/ui/HelpDialog.blp:112
 msgid "Read (Symbolic: r, Numeric: 4)"
 msgstr "Leitura (Simbolicamente: r, Numericamente: 4)"
 
-#: data/ui/HelpDialog.ui:118
+#: data/ui/HelpDialog.blp:113
 msgid "Allows viewing the file's contents or listing a directory's contents"
 msgstr ""
 "Permite visualizar o conteúdo do arquivo ou listar o conteúdo de um diretório"
 
-#: data/ui/HelpDialog.ui:128
+#: data/ui/HelpDialog.blp:122
 msgid "Write (Symbolically: w, Numerically: 2)"
 msgstr "Escrita (Simbolicamente: w, Numericamente: 2)"
 
-#: data/ui/HelpDialog.ui:129
+#: data/ui/HelpDialog.blp:123
 msgid ""
 "Allows modifying the file's contents or creating/deleting files within a "
 "directory"
@@ -136,15 +136,15 @@ msgstr ""
 "Permite modificar o conteúdo do arquivo ou criar/excluir arquivos dentro de "
 "um diretório"
 
-#: data/ui/HelpDialog.ui:139
+#: data/ui/HelpDialog.blp:132
 msgid "Execute (Symbolically: x, Numerically: 1)"
 msgstr "Execução (Simbolicamente: x, Numericamente: 1)"
 
-#: data/ui/HelpDialog.ui:140
+#: data/ui/HelpDialog.blp:133
 msgid "Allows running the file as a program"
 msgstr "Permite executar o arquivo como um programa"
 
-#: data/ui/HelpDialog.ui:153
+#: data/ui/HelpDialog.blp:144
 msgid ""
 "Permissions can either be represented symbolically or numerically. Symbolic "
 "permissions are represented as a string of ten characters, and numeric is "
@@ -155,27 +155,27 @@ msgstr ""
 "caracteres, enquanto na forma numérica, são representadas por três números "
 "(notação octal). Por exemplo:"
 
-#: data/ui/HelpDialog.ui:159
+#: data/ui/HelpDialog.blp:149
 msgid "Symbolic: -rwxr-xr--"
 msgstr "Simbólica: -rwxr-xr--"
 
-#: data/ui/HelpDialog.ui:169
+#: data/ui/HelpDialog.blp:159
 msgid "Numeric: 754"
 msgstr "Numérica: 754"
 
-#: data/ui/HelpDialog.ui:184
+#: data/ui/HelpDialog.blp:175
 msgid "First character, the file type"
 msgstr "Primeiro caractere, o tipo de arquivo"
 
-#: data/ui/HelpDialog.ui:185
+#: data/ui/HelpDialog.blp:176
 msgid "can either be '-' for file or 'd' for directory"
 msgstr "pode ser '-' para arquivo ou 'd' para diretório"
 
-#: data/ui/HelpDialog.ui:190
+#: data/ui/HelpDialog.blp:180
 msgid "First three positions (after file type)"
 msgstr "Primeiras três posições (após o tipo de arquivo)"
 
-#: data/ui/HelpDialog.ui:191
+#: data/ui/HelpDialog.blp:181
 msgid ""
 "The read, write and execute permissions for the user, here we have 'rwx', "
 "which translated to 4+2+1 and adds to 7"
@@ -183,11 +183,11 @@ msgstr ""
 "As permissões de leitura, escrita e execução para o usuário, aqui temos "
 "'rwx', que se traduz em 4+2+1, totalizando 7"
 
-#: data/ui/HelpDialog.ui:196
+#: data/ui/HelpDialog.blp:185
 msgid "Second three positions"
 msgstr "Três posições seguintes"
 
-#: data/ui/HelpDialog.ui:197
+#: data/ui/HelpDialog.blp:186
 msgid ""
 "The read, write and execute permissions for the group, here we have 'r-x', "
 "which translated to 4+0+1 and adds to 5"
@@ -195,11 +195,11 @@ msgstr ""
 "As permissões de leitura, escrita e execução para o grupo, aqui temos 'r-x', "
 "que se traduz em 4+0+1, totalizando 5"
 
-#: data/ui/HelpDialog.ui:202
+#: data/ui/HelpDialog.blp:190
 msgid "Last three positions"
 msgstr "Últimas três posições"
 
-#: data/ui/HelpDialog.ui:203
+#: data/ui/HelpDialog.blp:191
 msgid ""
 "The read, write and execute permissions for other users, here we have 'r--', "
 "which translated to 4+0+0 and adds to 4"
@@ -207,19 +207,19 @@ msgstr ""
 "As permissões de leitura, escrita e execução para outros usuários, aqui "
 "temos 'r--', que se traduz em 4+0+0, totalizando 4"
 
-#: data/ui/HelpDialog.ui:211
+#: data/ui/HelpDialog.blp:197
 msgid "Example command"
 msgstr "Comando de exemplo"
 
-#: data/ui/HelpDialog.ui:220
+#: data/ui/HelpDialog.blp:206
 msgid "chmod 754 (file name)"
 msgstr "chmod 754 (nome do arquivo)"
 
-#: data/ui/HelpDialog.ui:230
+#: data/ui/HelpDialog.blp:216
 msgid "Special Permissions"
 msgstr "Permissões Especiais"
 
-#: data/ui/HelpDialog.ui:239
+#: data/ui/HelpDialog.blp:225
 msgid ""
 "Special permissions make up a fourth access level in addition to user, "
 "group, and other, they allow for additional privileges over the standard "
@@ -229,21 +229,21 @@ msgstr ""
 "usuário, grupo e outros, e oferecem privilégios adicionais em relação às "
 "permissões padrão"
 
-#: data/ui/HelpDialog.ui:245
+#: data/ui/HelpDialog.blp:230
 msgid "The three special permissions are:"
 msgstr "As três permissões especiais são:"
 
-#: data/ui/HelpDialog.ui:281
+#: data/ui/HelpDialog.blp:263
 msgid "Special permissions can be represented symbolically or numerically."
 msgstr ""
 "As permissões especiais podem ser representadas de forma simbólica ou "
 "numérica."
 
-#: data/ui/HelpDialog.ui:288
+#: data/ui/HelpDialog.blp:269
 msgid "Numeric representation:"
 msgstr "Representação numérica:"
 
-#: data/ui/HelpDialog.ui:298
+#: data/ui/HelpDialog.blp:279
 msgid ""
 "They are denoted as an extra digit before the user, group and others "
 "permissions. Can Either be 0, 4, 2, 1 or any combination of them."
@@ -252,31 +252,31 @@ msgstr ""
 "grupo e outros. Esse dígito pode ser 0, 4, 2, 1 ou qualquer combinação "
 "desses valores."
 
-#: data/ui/HelpDialog.ui:308
+#: data/ui/HelpDialog.blp:289
 msgid "Symbolical representation:"
 msgstr "Representação simbólica:"
 
-#: data/ui/HelpDialog.ui:324
+#: data/ui/HelpDialog.blp:306
 msgid "Goes where 'x' normally is for the user"
 msgstr "Fica no lugar do 'x' das permissões do usuário"
 
-#: data/ui/HelpDialog.ui:330
+#: data/ui/HelpDialog.blp:311
 msgid "Goes where 'x' normally is for the group"
 msgstr "Fica no lugar do 'x' das permissões do grupo"
 
-#: data/ui/HelpDialog.ui:336
+#: data/ui/HelpDialog.blp:316
 msgid "Goes where 'x' normally is for others"
 msgstr "Fica no lugar do 'x' das permissões de outros"
 
-#: data/ui/HelpDialog.ui:344
+#: data/ui/HelpDialog.blp:322
 msgid "Symbolic: -rwsr-Sr-t"
 msgstr "Simbólica: -rwsr-Sr-t"
 
-#: data/ui/HelpDialog.ui:354
+#: data/ui/HelpDialog.blp:332
 msgid "Numeric: 7745"
 msgstr "Númerica: 7745"
 
-#: data/ui/HelpDialog.ui:370
+#: data/ui/HelpDialog.blp:349
 msgid ""
 "Represented as '4' numerically. Symbolically, it is either 's' if the owner "
 "has execute permissions or 'S' if not."
@@ -284,7 +284,7 @@ msgstr ""
 "Representado numericamente como '4'. Simbolicamente, pode ser 's' se o "
 "proprietário tiver permissões de execução ou 'S' se não tiver."
 
-#: data/ui/HelpDialog.ui:376
+#: data/ui/HelpDialog.blp:354
 msgid ""
 "Represented as '2' numerically. Symbolically, it is either 's' if the group "
 "has execute permissions or 'S' if not."
@@ -292,7 +292,7 @@ msgstr ""
 "Representado numericamente como '2'. Simbolicamente, pode ser 's' se o "
 "proprietário tiver permissões de execução ou 'S' se não tiver."
 
-#: data/ui/HelpDialog.ui:382
+#: data/ui/HelpDialog.blp:359
 msgid ""
 "Represented as '1' numerically. Symbolically, it is either 't' if the others "
 "have execute permissions or 'T' if not."
@@ -300,82 +300,82 @@ msgstr ""
 "Representado numericamente como '1'. Simbolicamente, pode ser 't' se o "
 "proprietário tiver permissões de execução ou 'T' se não tiver."
 
-#: data/ui/HelpDialog.ui:390
+#: data/ui/HelpDialog.blp:365
 msgid "Example commands"
 msgstr "Comandos de exemplo"
 
-#: data/ui/HelpDialog.ui:399
+#: data/ui/HelpDialog.blp:374
 msgid "chmod 7745 (file name)"
 msgstr "chmod 7745 (nome do arquivo)"
 
-#: data/ui/HelpDialog.ui:409
+#: data/ui/HelpDialog.blp:384
 msgid "Further reading"
 msgstr "Leitura recomendada"
 
-#: data/ui/Window.ui:4 data/ui/Window.ui:44
-#: data/io.github.ronniedroid.concessio.desktop:3
+#: data/ui/Window.blp:5 data/ui/Window.blp:43
+#: data/io.github.ronniedroid.concessio.desktop:2
 #: data/io.github.ronniedroid.concessio.metainfo.xml:5 src/application.js:70
 msgid "Concessio"
 msgstr "Concessão"
 
-#: data/ui/Window.ui:52 data/io.github.ronniedroid.concessio.desktop:4
+#: data/ui/Window.blp:51 data/io.github.ronniedroid.concessio.desktop:3
 #: data/io.github.ronniedroid.concessio.metainfo.xml:6
 msgid "Understand file permissions"
 msgstr "Entenda as permissões de arquivo"
 
-#: data/ui/Window.ui:57
+#: data/ui/Window.blp:55
 msgid "Get started"
 msgstr "Começar"
 
-#: data/ui/Window.ui:87
+#: data/ui/Window.blp:81
 msgid "Open"
 msgstr "Abrir"
 
-#: data/ui/Window.ui:96
+#: data/ui/Window.blp:90
 msgid "Main Menu"
 msgstr "Menu"
 
-#: data/ui/Window.ui:144 data/ui/ShortcutsWindow.ui:42
+#: data/ui/Window.blp:129 data/ui/ShortcutsWindow.blp:35
 msgid "Keyboard Shortcuts"
 msgstr "Atalhos de Teclado"
 
-#: data/ui/Window.ui:148
+#: data/ui/Window.blp:134
 msgid "About"
 msgstr "Sobre"
 
-#: data/ui/ShortcutsWindow.ui:8
+#: data/ui/ShortcutsWindow.blp:6
 msgid "File"
 msgstr "Arquivo"
 
-#: data/ui/ShortcutsWindow.ui:11
+#: data/ui/ShortcutsWindow.blp:9
 msgid "Open File"
 msgstr "Abrir Arquivo"
 
-#: data/ui/ShortcutsWindow.ui:12
+#: data/ui/ShortcutsWindow.blp:10
 msgid "Open file chooser dialog"
 msgstr "Abre diálogo de seleção de arquivo"
 
-#: data/ui/ShortcutsWindow.ui:20
+#: data/ui/ShortcutsWindow.blp:16
 msgid "General"
 msgstr "Geral"
 
-#: data/ui/ShortcutsWindow.ui:23
+#: data/ui/ShortcutsWindow.blp:19
 msgid "Quit App"
 msgstr "Sair do Aplicativo"
 
-#: data/ui/ShortcutsWindow.ui:29
+#: data/ui/ShortcutsWindow.blp:24
 msgid "Close Window"
 msgstr "Fechar Janela"
 
-#: data/ui/ShortcutsWindow.ui:35
+#: data/ui/ShortcutsWindow.blp:29
 msgid "Help dialog"
 msgstr "Ajuda"
 
-#: data/ui/ShortcutsWindow.ui:36
+#: data/ui/ShortcutsWindow.blp:30
 msgid "Display the help dialog"
 msgstr "Mostra a janela de ajuda"
 
-#: data/ui/ShortcutsWindow.ui:43
+#: data/ui/ShortcutsWindow.blp:36
 msgid "Display this keyboard shortcuts window"
 msgstr "Mostra essa janela de atalhos do teclado"
 

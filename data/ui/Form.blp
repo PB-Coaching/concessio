@@ -1,0 +1,55 @@
+using Gtk 4.0;
+
+template $CncForm {
+  layout-manager: BoxLayout {
+    orientation: horizontal;
+    spacing: 18;
+  };
+
+  Box {
+    spacing: 12;
+    orientation: vertical;
+
+    Label {
+      label: _("Numeric");
+
+      styles [
+        "heading",
+      ]
+    }
+
+    Entry numeric {
+      secondary-icon-name: "concessio-copy-symbolic";
+      secondary-icon-tooltip-text: _("Copy value");
+      placeholder-text: "644";
+      changed => $_removeErrorClass();
+      icon-press => $_copyToClipboard();
+    }
+  }
+
+  Box {
+    spacing: 12;
+    orientation: vertical;
+    halign: center;
+
+    Label {
+      label: _("Symbolic");
+
+      styles [
+        "heading",
+      ]
+    }
+
+    Entry symbolic {
+      secondary-icon-name: "concessio-copy-symbolic";
+      secondary-icon-tooltip-text: _("Copy value");
+      placeholder-text: "rwxr--r--";
+      changed => $_removeErrorClass();
+      icon-press => $_copyToClipboard();
+
+      styles [
+        "monospace",
+      ]
+    }
+  }
+}
