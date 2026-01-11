@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-11 22:16+0300\n"
+"POT-Creation-Date: 2026-01-11 23:04+0300\n"
 "PO-Revision-Date: 2024-09-20 17:52+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -326,7 +326,7 @@ msgstr "فتح الملف"
 msgid "Main Menu"
 msgstr "القائمة الرئيسية"
 
-#: data/ui/Window.blp:129 data/ui/ShortcutsWindow.blp:35
+#: data/ui/Window.blp:129 data/shortcuts-dialog.blp:29
 msgid "Keyboard Shortcuts"
 msgstr "اختصارات لوحة المفاتيح"
 
@@ -334,39 +334,31 @@ msgstr "اختصارات لوحة المفاتيح"
 msgid "About"
 msgstr "حول"
 
-#: data/ui/ShortcutsWindow.blp:6
-msgid "File"
-msgstr "الملف"
-
-#: data/ui/ShortcutsWindow.blp:9
+#: data/shortcuts-dialog.blp:7
 msgid "Open File"
 msgstr "فتح الملف"
 
-#: data/ui/ShortcutsWindow.blp:10
+#: data/shortcuts-dialog.blp:8
 msgid "Open file chooser dialog"
 msgstr "فتح مربع حوار اختيار الملف"
 
-#: data/ui/ShortcutsWindow.blp:16
-msgid "General"
-msgstr "عام"
-
-#: data/ui/ShortcutsWindow.blp:19
+#: data/shortcuts-dialog.blp:13
 msgid "Quit App"
 msgstr "أغلاق التطبيق"
 
-#: data/ui/ShortcutsWindow.blp:24
+#: data/shortcuts-dialog.blp:18
 msgid "Close Window"
 msgstr "إغلاق النافذة"
 
-#: data/ui/ShortcutsWindow.blp:29
+#: data/shortcuts-dialog.blp:23
 msgid "Help dialog"
 msgstr "مربع حوار المساعدة"
 
-#: data/ui/ShortcutsWindow.blp:30
+#: data/shortcuts-dialog.blp:24
 msgid "Display the help dialog"
 msgstr "عرض مربع الحوار للمساعدة"
 
-#: data/ui/ShortcutsWindow.blp:36
+#: data/shortcuts-dialog.blp:30
 msgid "Display this keyboard shortcuts window"
 msgstr "عرض نافذة اختصارات لوحة المفاتيح هذه"
 
@@ -422,6 +414,12 @@ msgstr "تم النسخ إلى الحافظة!"
 #: src/window.js:162
 msgid "Failed to open file."
 msgstr "فشل في فتح الملف."
+
+#~ msgid "File"
+#~ msgstr "الملف"
+
+#~ msgid "General"
+#~ msgstr "عام"
 
 #~ msgid "open"
 #~ msgstr "فتح"

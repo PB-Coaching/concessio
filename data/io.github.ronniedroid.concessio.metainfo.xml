@@ -56,6 +56,15 @@
   <url type="bugtracker">https://github.com/ronniedroid/concessio/issues</url>
 
   <releases>
+    <release version="v0.2.0" date="2026-01-11">
+      <description translate="no">
+        <ul>
+          <li>Updated to gnome 49 runtime</li>
+          <li>Switched to blueprint for UI definition</li>
+          <li>Switched to new libadwiata shortcuts dialog</li>
+        </ul>
+      </description>
+    </release>
     <release version="v0.1.10" date="2025-04-01">
       <description translate="no">
         <ul>

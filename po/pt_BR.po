@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-11 22:16+0300\n"
+"POT-Creation-Date: 2026-01-11 23:04+0300\n"
 "PO-Revision-Date: 2025-01-12 18:01-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -335,7 +335,7 @@ msgstr "Abrir"
 msgid "Main Menu"
 msgstr "Menu"
 
-#: data/ui/Window.blp:129 data/ui/ShortcutsWindow.blp:35
+#: data/ui/Window.blp:129 data/shortcuts-dialog.blp:29
 msgid "Keyboard Shortcuts"
 msgstr "Atalhos de Teclado"
 
@@ -343,39 +343,31 @@ msgstr "Atalhos de Teclado"
 msgid "About"
 msgstr "Sobre"
 
-#: data/ui/ShortcutsWindow.blp:6
-msgid "File"
-msgstr "Arquivo"
-
-#: data/ui/ShortcutsWindow.blp:9
+#: data/shortcuts-dialog.blp:7
 msgid "Open File"
 msgstr "Abrir Arquivo"
 
-#: data/ui/ShortcutsWindow.blp:10
+#: data/shortcuts-dialog.blp:8
 msgid "Open file chooser dialog"
 msgstr "Abre diálogo de seleção de arquivo"
 
-#: data/ui/ShortcutsWindow.blp:16
-msgid "General"
-msgstr "Geral"
-
-#: data/ui/ShortcutsWindow.blp:19
+#: data/shortcuts-dialog.blp:13
 msgid "Quit App"
 msgstr "Sair do Aplicativo"
 
-#: data/ui/ShortcutsWindow.blp:24
+#: data/shortcuts-dialog.blp:18
 msgid "Close Window"
 msgstr "Fechar Janela"
 
-#: data/ui/ShortcutsWindow.blp:29
+#: data/shortcuts-dialog.blp:23
 msgid "Help dialog"
 msgstr "Ajuda"
 
-#: data/ui/ShortcutsWindow.blp:30
+#: data/shortcuts-dialog.blp:24
 msgid "Display the help dialog"
 msgstr "Mostra a janela de ajuda"
 
-#: data/ui/ShortcutsWindow.blp:36
+#: data/shortcuts-dialog.blp:30
 msgid "Display this keyboard shortcuts window"
 msgstr "Mostra essa janela de atalhos do teclado"
 
@@ -438,3 +430,9 @@ msgstr "Copiado para a área de transferência!"
 #: src/window.js:162
 msgid "Failed to open file."
 msgstr "Falha ao abrir o arquivo."
+
+#~ msgid "File"
+#~ msgstr "Arquivo"
+
+#~ msgid "General"
+#~ msgstr "Geral"

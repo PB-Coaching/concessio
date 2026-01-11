@@ -2,7 +2,7 @@ data/ui/BoxedList.blp
 data/ui/Form.blp
 data/ui/HelpDialog.blp
 data/ui/Window.blp
-data/ui/ShortcutsWindow.blp
+data/shortcuts-dialog.blp
 data/io.github.ronniedroid.concessio.desktop
 data/io.github.ronniedroid.concessio.metainfo.xml
 
