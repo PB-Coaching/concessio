@@ -56,6 +56,11 @@
   <url type="bugtracker">https://github.com/ronniedroid/concessio/issues</url>
 
   <releases>
+    <release version="v0.2.1" date="2026-01-12">
+      <description translate="no">
+        <p>Make the app accessible by orca</p>
+      </description>
+    </release>
     <release version="v0.2.0" date="2026-01-11">
       <description translate="no">
         <ul>

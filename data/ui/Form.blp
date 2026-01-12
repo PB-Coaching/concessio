@@ -24,6 +24,11 @@ template $CncForm {
       placeholder-text: "644";
       changed => $_removeErrorClass();
       icon-press => $_copyToClipboard();
+
+      accessibility {
+        label: _("Numeric permissions");
+        description: _("Enter three or four octal digits, for example 644 or 4755");
+      }
     }
   }
 
@@ -46,6 +51,11 @@ template $CncForm {
       placeholder-text: "rwxr--r--";
       changed => $_removeErrorClass();
       icon-press => $_copyToClipboard();
+
+      accessibility {
+        label: _("Symbolic permissions");
+        description: _("Enter nine characters representing read, write, and execute permissions for user, group, and others, for example rwxr-xr-x");
+      }
 
       styles [
         "monospace",

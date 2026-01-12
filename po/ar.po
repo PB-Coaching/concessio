@@ -2,53 +2,112 @@
 # Copyright (C) 2024 THE io.github.ronniedroid.concessio'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the io.github.ronniedroid.concessio package.
 # Automatically generated, 2024.
+# Ronnie Nissan <ronnie.nissan@proton.me>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-11 23:04+0300\n"
-"PO-Revision-Date: 2024-09-20 17:52+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2026-01-12 12:03+0300\n"
+"PO-Revision-Date: 2026-01-12 12:43+0300\n"
+"Last-Translator: Ronnie Nissan <ronnie.nissan@proton.me>\n"
+"Language-Team: Arabic\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Gtranslator 49.0\n"
+"Plural-Forms: nplurals=6; plural= n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: data/ui/BoxedList.blp:13 data/ui/HelpDialog.blp:65
+#: data/ui/BoxedList.blp:13 data/ui/HelpDialog.blp:66
 msgid "User"
 msgstr "المستخدم"
 
-#: data/ui/BoxedList.blp:23 data/ui/BoxedList.blp:87 data/ui/BoxedList.blp:151
+#: data/ui/BoxedList.blp:23 data/ui/BoxedList.blp:103 data/ui/BoxedList.blp:183
 msgid "Read"
 msgstr "قراءة"
 
-#: data/ui/BoxedList.blp:37 data/ui/BoxedList.blp:101 data/ui/BoxedList.blp:165
+#: data/ui/BoxedList.blp:26
+msgid "User read permission"
+msgstr "صلاحيات القراءة للمستخدم"
+
+#: data/ui/BoxedList.blp:41 data/ui/BoxedList.blp:121 data/ui/BoxedList.blp:201
 msgid "Write"
 msgstr "كتابة"
 
-#: data/ui/BoxedList.blp:51 data/ui/BoxedList.blp:115 data/ui/BoxedList.blp:179
+#: data/ui/BoxedList.blp:44
+msgid "User write permission"
+msgstr "صلاحيات الكتابة للمستخدم"
+
+#: data/ui/BoxedList.blp:59 data/ui/BoxedList.blp:139 data/ui/BoxedList.blp:219
 msgid "Execute"
 msgstr "تنفيذ"
 
-#: data/ui/BoxedList.blp:77 data/ui/HelpDialog.blp:75
+#: data/ui/BoxedList.blp:62
+msgid "User execute permission"
+msgstr "صلاحيات التنفيذ للمستخدم"
+
+#: data/ui/BoxedList.blp:82
+msgid "Set user ID SUID options"
+msgstr "خيارات تعيين معرف المستخدم (SUID)"
+
+#: data/ui/BoxedList.blp:93 data/ui/HelpDialog.blp:76
 msgid "Group"
 msgstr "المجموعة"
 
-#: data/ui/BoxedList.blp:141 data/ui/HelpDialog.blp:85
+#: data/ui/BoxedList.blp:106
+msgid "Group read permission"
+msgstr "صلاحيات القراءة للمجموعة"
+
+#: data/ui/BoxedList.blp:124
+msgid "Group write permission"
+msgstr "صلاحيات الكتابة للمجموعة"
+
+#: data/ui/BoxedList.blp:142
+msgid "Group execute permission"
+msgstr "صلاحيات التنفيذ للمجموعة"
+
+#: data/ui/BoxedList.blp:162
+msgid "Set group ID SGID options"
+msgstr "خيارات تعيين معرف المجموعة (SGID)"
+
+#: data/ui/BoxedList.blp:173 data/ui/HelpDialog.blp:86
 msgid "Others"
 msgstr "الاَخرون"
 
-#: data/ui/BoxedList.blp:236 data/ui/HelpDialog.blp:247
+#: data/ui/BoxedList.blp:186
+msgid "Other users read permission"
+msgstr "صلاحيات القراءة للمستخدمين الآخرين"
+
+#: data/ui/BoxedList.blp:204
+msgid "Other users write permission"
+msgstr "صلاحيات الكتابة للمستخدمين الآخرين"
+
+#: data/ui/BoxedList.blp:222
+msgid "Other users execute permission"
+msgstr "صلاحيات التنفيذ للمستخدمين الآخرين"
+
+#: data/ui/BoxedList.blp:242
+msgid "Sticky bit options"
+msgstr "خيارات البت اللاصق"
+
+#: data/ui/BoxedList.blp:283
+msgid "Set user ID SUID switch"
+msgstr "مفتاح تفعيل تعيين معرف المستخدم (SUID)"
+
+#: data/ui/BoxedList.blp:288 data/ui/HelpDialog.blp:248
 msgid ""
 "Executes the file with the permissions of the file owner, not the user "
 "running it."
 msgstr ""
 "يقوم بتنفيذ الملف بصلاحيات مالك الملف، وليس المستخدم الذي يقوم بتشغيله."
 
-#: data/ui/BoxedList.blp:274 data/ui/HelpDialog.blp:252
+#: data/ui/BoxedList.blp:325
+msgid "Set group ID SGID switch"
+msgstr "مفتاح تفعيل تعيين معرف المجموعة (SGID)"
+
+#: data/ui/BoxedList.blp:330 data/ui/HelpDialog.blp:253
 msgid ""
 "Executes the file with the permissions of the file's group, or ensures new "
 "files in a directory inherit the group."
@@ -56,7 +115,11 @@ msgstr ""
 "يقوم بتنفيذ الملف بصلاحيات المجموعة، أو يضمن أن الملفات الجديدة في الدليل "
 "ترث نفس المجموعة."
 
-#: data/ui/BoxedList.blp:312 data/ui/HelpDialog.blp:257
+#: data/ui/BoxedList.blp:367
+msgid "Sticky bit switch"
+msgstr "مفتاح تفعيل البت اللاصق"
+
+#: data/ui/BoxedList.blp:372 data/ui/HelpDialog.blp:258
 msgid ""
 "Allows only the file owner or directory owner to delete files in the "
 "directory, even if others have write permissions. Only applies to "
@@ -70,23 +133,43 @@ msgstr ""
 msgid "Numeric"
 msgstr "رقمي"
 
-#: data/ui/Form.blp:23 data/ui/Form.blp:45
+#: data/ui/Form.blp:23 data/ui/Form.blp:50
 msgid "Copy value"
 msgstr "نسخ القيمة"
 
-#: data/ui/Form.blp:36
+#: data/ui/Form.blp:29
+msgid "Numeric permissions"
+msgstr "صلاحيات رقمية"
+
+#: data/ui/Form.blp:30
+msgid "Enter three or four octal digits, for example 644 or 4755"
+msgstr "أدخل ثلاثة أو أربعة أرقام ثمانية، على سبيل المثال 644 أو 4755"
+
+#: data/ui/Form.blp:41
 msgid "Symbolic"
 msgstr "رمزي"
 
-#: data/ui/HelpDialog.blp:14 data/ui/Window.blp:124
+#: data/ui/Form.blp:56
+msgid "Symbolic permissions"
+msgstr "صلاحيات رمزية"
+
+#: data/ui/Form.blp:57
+msgid ""
+"Enter nine characters representing read, write, and execute permissions for "
+"user, group, and others, for example rwxr-xr-x"
+msgstr ""
+"أدخل تسعة أحرف تمثل صلاحيات القراءة والكتابة والتنفيذ للمالك والمجموعة "
+"والآخرين، على سبيل المثال rwxr-xr-x"
+
+#: data/ui/HelpDialog.blp:14 data/ui/Window.blp:125
 msgid "Help"
 msgstr "مساعدة"
 
-#: data/ui/HelpDialog.blp:35
+#: data/ui/HelpDialog.blp:36
 msgid "Unix Permissions"
 msgstr "صلاحيات يونكس"
 
-#: data/ui/HelpDialog.blp:44
+#: data/ui/HelpDialog.blp:45
 msgid ""
 "The Unix permissions system is used to grant granulated access to file and "
 "directories on a Unix-like operating system"
@@ -94,53 +177,53 @@ msgstr ""
 "يُستخدم نظام صلاحيات يونكس لمنح الوصول المجزأ إلى الملفات والمجلدات على نظام "
 "تشغيل مشابه ليونكس"
 
-#: data/ui/HelpDialog.blp:49
+#: data/ui/HelpDialog.blp:50
 msgid "Permissions are granted to three groups:"
 msgstr "يتم منح الصلاحيات إلى ثلاث مجموعات:"
 
-#: data/ui/HelpDialog.blp:66
+#: data/ui/HelpDialog.blp:67
 msgid "The owner of the file"
 msgstr "مالك الملف"
 
-#: data/ui/HelpDialog.blp:76
+#: data/ui/HelpDialog.blp:77
 msgid "A group of users who share access to the file"
 msgstr "مجموعة من المستخدمين الذين يشاركون في الوصول إلى الملف"
 
-#: data/ui/HelpDialog.blp:86
+#: data/ui/HelpDialog.blp:87
 msgid "All other users on the system"
 msgstr "جميع المستخدمين الاَخرين على النظام"
 
-#: data/ui/HelpDialog.blp:96
+#: data/ui/HelpDialog.blp:97
 msgid "The types of permissions are:"
 msgstr "أنواع الصلاحيات هي:"
 
-#: data/ui/HelpDialog.blp:112
+#: data/ui/HelpDialog.blp:113
 msgid "Read (Symbolic: r, Numeric: 4)"
 msgstr "قراءة (رقمي: 4، رمزي r)"
 
-#: data/ui/HelpDialog.blp:113
+#: data/ui/HelpDialog.blp:114
 msgid "Allows viewing the file's contents or listing a directory's contents"
 msgstr "يسمح بعرض محتويات الملف أو سرد محتويات المجلد"
 
-#: data/ui/HelpDialog.blp:122
+#: data/ui/HelpDialog.blp:123
 msgid "Write (Symbolically: w, Numerically: 2)"
 msgstr "كتابة (رقمي: 2، رمزي: w)"
 
-#: data/ui/HelpDialog.blp:123
+#: data/ui/HelpDialog.blp:124
 msgid ""
 "Allows modifying the file's contents or creating/deleting files within a "
 "directory"
 msgstr "يسمح بتعديل محتويات الملف أو إنشاء/حذف الملفات داخل المجلد"
 
-#: data/ui/HelpDialog.blp:132
+#: data/ui/HelpDialog.blp:133
 msgid "Execute (Symbolically: x, Numerically: 1)"
 msgstr "تنفيذ (رقمي: 1، رمزي: x)"
 
-#: data/ui/HelpDialog.blp:133
+#: data/ui/HelpDialog.blp:134
 msgid "Allows running the file as a program"
 msgstr "يسمح بتشغيل الملف كبرنامج"
 
-#: data/ui/HelpDialog.blp:144
+#: data/ui/HelpDialog.blp:145
 msgid ""
 "Permissions can either be represented symbolically or numerically. Symbolic "
 "permissions are represented as a string of ten characters, and numeric is "
@@ -150,27 +233,27 @@ msgstr ""
 "كسلسلة من عشرة أحرف، بينما يتم تمثيل الصلاحيات الرقمية بثلاثة أرقام (ترميز "
 "ثماني) على سبيل المثال:"
 
-#: data/ui/HelpDialog.blp:149
+#: data/ui/HelpDialog.blp:150
 msgid "Symbolic: -rwxr-xr--"
 msgstr "رمزي: --rwxr-xr-"
 
-#: data/ui/HelpDialog.blp:159
+#: data/ui/HelpDialog.blp:160
 msgid "Numeric: 754"
 msgstr "رقمي: 754"
 
-#: data/ui/HelpDialog.blp:175
+#: data/ui/HelpDialog.blp:176
 msgid "First character, the file type"
 msgstr "الحرف الاولو نوع الملف"
 
-#: data/ui/HelpDialog.blp:176
+#: data/ui/HelpDialog.blp:177
 msgid "can either be '-' for file or 'd' for directory"
 msgstr "يمكن ان يكون '-' للملف او 'd' للمجلد"
 
-#: data/ui/HelpDialog.blp:180
+#: data/ui/HelpDialog.blp:181
 msgid "First three positions (after file type)"
 msgstr "المواضغ الثلاثة الأولى (بعد نوع الملف)"
 
-#: data/ui/HelpDialog.blp:181
+#: data/ui/HelpDialog.blp:182
 msgid ""
 "The read, write and execute permissions for the user, here we have 'rwx', "
 "which translated to 4+2+1 and adds to 7"
@@ -178,11 +261,11 @@ msgstr ""
 "صلاحيات القراءة والكتابة والتنفيذ للمستخدم، هنا لدينا 'rwx'، والتي تترجم إلى "
 "4+2+1 وتساوي 7"
 
-#: data/ui/HelpDialog.blp:185
+#: data/ui/HelpDialog.blp:186
 msgid "Second three positions"
 msgstr "الواضع الثلالثة الثانية"
 
-#: data/ui/HelpDialog.blp:186
+#: data/ui/HelpDialog.blp:187
 msgid ""
 "The read, write and execute permissions for the group, here we have 'r-x', "
 "which translated to 4+0+1 and adds to 5"
@@ -190,11 +273,11 @@ msgstr ""
 "صلاحيات القراءة والكتابة والتنفيذ للمجموعة، هنا لدينا 'r-x'، والتي تترجم إلى "
 "4+0+1 وتساوي 5"
 
-#: data/ui/HelpDialog.blp:190
+#: data/ui/HelpDialog.blp:191
 msgid "Last three positions"
 msgstr "المواضع الثلاثة الأخيرة"
 
-#: data/ui/HelpDialog.blp:191
+#: data/ui/HelpDialog.blp:192
 msgid ""
 "The read, write and execute permissions for other users, here we have 'r--', "
 "which translated to 4+0+0 and adds to 4"
@@ -202,19 +285,19 @@ msgstr ""
 "صلاحيات القراءة والكتابة والتنفيذ للمستخدمين الآخرين، هنا لدينا 'r--'، والتي "
 "تترجم إلى 4+0+0 وتساوي 4"
 
-#: data/ui/HelpDialog.blp:197
+#: data/ui/HelpDialog.blp:198
 msgid "Example command"
 msgstr "أمر نموذجي"
 
-#: data/ui/HelpDialog.blp:206
+#: data/ui/HelpDialog.blp:207
 msgid "chmod 754 (file name)"
 msgstr "(اسم الملف) chmod 754"
 
-#: data/ui/HelpDialog.blp:216
+#: data/ui/HelpDialog.blp:217
 msgid "Special Permissions"
 msgstr "صلاحيات يونكس"
 
-#: data/ui/HelpDialog.blp:225
+#: data/ui/HelpDialog.blp:226
 msgid ""
 "Special permissions make up a fourth access level in addition to user, "
 "group, and other, they allow for additional privileges over the standard "
@@ -223,19 +306,19 @@ msgstr ""
 "تشكل الصلاحيات الخاصة مستوى وصول رابعًا بالإضافة إلى المستخدم والمجموعة "
 "والآخرين، فهي تسمح بامتيازات إضافية على مجموعات الصلاحيات القياسية"
 
-#: data/ui/HelpDialog.blp:230
+#: data/ui/HelpDialog.blp:231
 msgid "The three special permissions are:"
 msgstr "الصلاحيات الخاصة الثلاثة هي:"
 
-#: data/ui/HelpDialog.blp:263
+#: data/ui/HelpDialog.blp:264
 msgid "Special permissions can be represented symbolically or numerically."
 msgstr "يمكن تمثيل الصلاحيات الخاصة رمزيًا أو رقميًا."
 
-#: data/ui/HelpDialog.blp:269
+#: data/ui/HelpDialog.blp:270
 msgid "Numeric representation:"
 msgstr "التمثيل الرقمي:"
 
-#: data/ui/HelpDialog.blp:279
+#: data/ui/HelpDialog.blp:280
 msgid ""
 "They are denoted as an extra digit before the user, group and others "
 "permissions. Can Either be 0, 4, 2, 1 or any combination of them."
@@ -243,31 +326,31 @@ msgstr ""
 "يتم الإشارة إليها كرقم إضافي قبل صلاحيات المستخدم والمجموعة والآخرين. يمكن "
 "أن تكون إما 0 أو 4 أو 2 أو 1 أو أي تركيبة منها."
 
-#: data/ui/HelpDialog.blp:289
+#: data/ui/HelpDialog.blp:290
 msgid "Symbolical representation:"
 msgstr "التمثيل الرمزي:"
 
-#: data/ui/HelpDialog.blp:306
+#: data/ui/HelpDialog.blp:307
 msgid "Goes where 'x' normally is for the user"
 msgstr "يقع في المكان الذي يوجد فيه 'x' عادةً للمستخدم"
 
-#: data/ui/HelpDialog.blp:311
+#: data/ui/HelpDialog.blp:312
 msgid "Goes where 'x' normally is for the group"
 msgstr "يقع في المكان الذي يوجد فيه 'x' عادةً للمجموعة"
 
-#: data/ui/HelpDialog.blp:316
+#: data/ui/HelpDialog.blp:317
 msgid "Goes where 'x' normally is for others"
 msgstr "يقع في المكان الذي يوجد فيه 'x' عادةً للاَحرين"
 
-#: data/ui/HelpDialog.blp:322
+#: data/ui/HelpDialog.blp:323
 msgid "Symbolic: -rwsr-Sr-t"
 msgstr "رمزي: rwsr-Sr-t-"
 
-#: data/ui/HelpDialog.blp:332
+#: data/ui/HelpDialog.blp:333
 msgid "Numeric: 7745"
 msgstr "رقمي: 7755"
 
-#: data/ui/HelpDialog.blp:349
+#: data/ui/HelpDialog.blp:350
 msgid ""
 "Represented as '4' numerically. Symbolically, it is either 's' if the owner "
 "has execute permissions or 'S' if not."
@@ -275,7 +358,7 @@ msgstr ""
 "يتم تمثيله ب \"4\" رقميا. ورمزيا، يكون \"s\" إذا كان المالك لديه صلاحيات "
 "التنفيذ أو \"S\" إذا لم يكن لديه صلاحيات التنفيذ."
 
-#: data/ui/HelpDialog.blp:354
+#: data/ui/HelpDialog.blp:355
 msgid ""
 "Represented as '2' numerically. Symbolically, it is either 's' if the group "
 "has execute permissions or 'S' if not."
@@ -283,7 +366,7 @@ msgstr ""
 "يتم تمثيله ب \"2\" رقميا. ورمزيا \"s\" إذا كانت المجموعة لديها صلاحيات "
 "التنفيذ أو \"S\" إذا لم يكن لديها صلاحيات التنفيذ."
 
-#: data/ui/HelpDialog.blp:359
+#: data/ui/HelpDialog.blp:360
 msgid ""
 "Represented as '1' numerically. Symbolically, it is either 't' if the others "
 "have execute permissions or 'T' if not."
@@ -291,46 +374,46 @@ msgstr ""
 "يتم تمثيله ب \"1\" رقميا. ورمزيا \"t\" إذا كان الآخرون لديهم صلاحيات التنفيذ "
 "أو \"T\" إذا لم يكن لديهم صلاحيات التنفيذ."
 
-#: data/ui/HelpDialog.blp:365
+#: data/ui/HelpDialog.blp:366
 msgid "Example commands"
 msgstr "أمر نموذجي"
 
-#: data/ui/HelpDialog.blp:374
+#: data/ui/HelpDialog.blp:375
 msgid "chmod 7745 (file name)"
 msgstr "(اسم الملف) chmod 7745"
 
-#: data/ui/HelpDialog.blp:384
+#: data/ui/HelpDialog.blp:385
 msgid "Further reading"
 msgstr "قراءة إضافية"
 
-#: data/ui/Window.blp:5 data/ui/Window.blp:43
+#: data/ui/Window.blp:5 data/ui/Window.blp:44
 #: data/io.github.ronniedroid.concessio.desktop:2
 #: data/io.github.ronniedroid.concessio.metainfo.xml:5 src/application.js:70
 msgid "Concessio"
 msgstr "كونسيسيو"
 
-#: data/ui/Window.blp:51 data/io.github.ronniedroid.concessio.desktop:3
+#: data/ui/Window.blp:52 data/io.github.ronniedroid.concessio.desktop:3
 #: data/io.github.ronniedroid.concessio.metainfo.xml:6
 msgid "Understand file permissions"
 msgstr "أفهم صلاحيات الملفات"
 
-#: data/ui/Window.blp:55
+#: data/ui/Window.blp:56
 msgid "Get started"
 msgstr "ابدأ الاَن"
 
-#: data/ui/Window.blp:81
+#: data/ui/Window.blp:82
 msgid "Open"
 msgstr "فتح الملف"
 
-#: data/ui/Window.blp:90
+#: data/ui/Window.blp:91
 msgid "Main Menu"
 msgstr "القائمة الرئيسية"
 
-#: data/ui/Window.blp:129 data/shortcuts-dialog.blp:29
+#: data/ui/Window.blp:130 data/shortcuts-dialog.blp:29
 msgid "Keyboard Shortcuts"
 msgstr "اختصارات لوحة المفاتيح"
 
-#: data/ui/Window.blp:134
+#: data/ui/Window.blp:135
 msgid "About"
 msgstr "حول"
 
