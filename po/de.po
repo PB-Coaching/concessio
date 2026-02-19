@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 12:03+0300\n"
-"PO-Revision-Date: 2026-02-19 19:25+0100\n"
+"PO-Revision-Date: 2026-02-19 19:26+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -131,7 +131,7 @@ msgstr "Kopiere Wert"
 
 #: data/ui/Form.blp:29
 msgid "Numeric permissions"
-msgstr ""
+msgstr "Numerische Berechtigungen"
 
 #: data/ui/Form.blp:30
 msgid "Enter three or four octal digits, for example 644 or 4755"
