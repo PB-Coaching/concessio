@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 12:03+0300\n"
-"PO-Revision-Date: 2026-02-18 22:00+0100\n"
+"PO-Revision-Date: 2026-02-19 19:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -88,11 +88,11 @@ msgstr "Ausführungsrechte anderer Nutzer"
 
 #: data/ui/BoxedList.blp:242
 msgid "Sticky bit options"
-msgstr ""
+msgstr "Sticky Bit Optionen"
 
 #: data/ui/BoxedList.blp:283
 msgid "Set user ID SUID switch"
-msgstr ""
+msgstr "Lege ID SUID Optionen des Nutzer fest"
 
 #: data/ui/BoxedList.blp:288 data/ui/HelpDialog.blp:248
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: data/ui/BoxedList.blp:325
 msgid "Set group ID SGID switch"
-msgstr ""
+msgstr "Lege ID SUID Optionen der Gruppe fest"
 
 #: data/ui/BoxedList.blp:330 data/ui/HelpDialog.blp:253
 msgid ""
@@ -127,7 +127,7 @@ msgstr ""
 
 #: data/ui/Form.blp:23 data/ui/Form.blp:50
 msgid "Copy value"
-msgstr ""
+msgstr "Kopiere Wert"
 
 #: data/ui/Form.blp:29
 msgid "Numeric permissions"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: data/ui/Form.blp:41
 msgid "Symbolic"
-msgstr ""
+msgstr "Symbolisch"
 
 #: data/ui/Form.blp:56
 msgid "Symbolic permissions"
