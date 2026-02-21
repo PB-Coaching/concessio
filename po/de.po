@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 12:03+0300\n"
-"PO-Revision-Date: 2026-02-19 19:26+0100\n"
+"PO-Revision-Date: 2026-02-21 15:15+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -99,6 +99,8 @@ msgid ""
 "Executes the file with the permissions of the file owner, not the user "
 "running it."
 msgstr ""
+"Führt die Datei mit den Berechtigungen des Dateieigentümers aus, nicht mit "
+"denen des Benutzers, der sie ausführt."
 
 #: data/ui/BoxedList.blp:325
 msgid "Set group ID SGID switch"
@@ -109,10 +111,12 @@ msgid ""
 "Executes the file with the permissions of the file's group, or ensures new "
 "files in a directory inherit the group."
 msgstr ""
+"Führt die Datei mit den Berechtigungen der Gruppe der Datei aus oder sorgt "
+"dafür, dass neue Dateien in einem Verzeichnis die Gruppenzugehörigkeit erben."
 
 #: data/ui/BoxedList.blp:367
 msgid "Sticky bit switch"
-msgstr ""
+msgstr "Schalter für Sticky Bit"
 
 #: data/ui/BoxedList.blp:372 data/ui/HelpDialog.blp:258
 msgid ""
@@ -120,6 +124,9 @@ msgid ""
 "directory, even if others have write permissions. Only applies to "
 "directories and has no effect on files."
 msgstr ""
+"Erlaubt nur dem Dateieigentümer oder dem Verzeichniseigentümer, Dateien im "
+"Verzeichnis zu löschen, selbst wenn andere Schreibrechte besitzen. Gilt nur "
+"für Verzeichnisse und hat keine Wirkung auf Dateien."
 
 #: data/ui/Form.blp:14
 msgid "Numeric"
