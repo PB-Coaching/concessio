@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 12:03+0300\n"
-"PO-Revision-Date: 2026-02-21 15:15+0100\n"
+"PO-Revision-Date: 2026-02-24 20:28+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: data/ui/Form.blp:14
 msgid "Numeric"
-msgstr ""
+msgstr "Numerisch"
 
 #: data/ui/Form.blp:23 data/ui/Form.blp:50
 msgid "Copy value"
@@ -142,7 +142,7 @@ msgstr "Numerische Berechtigungen"
 
 #: data/ui/Form.blp:30
 msgid "Enter three or four octal digits, for example 644 or 4755"
-msgstr ""
+msgstr "Gib drei oder vier Oktalziffern ein, zum Beispiel 644 oder 4755"
 
 #: data/ui/Form.blp:41
 msgid "Symbolic"
@@ -150,13 +150,15 @@ msgstr "Symbolisch"
 
 #: data/ui/Form.blp:56
 msgid "Symbolic permissions"
-msgstr ""
+msgstr "Symbolische Berechtigungen"
 
 #: data/ui/Form.blp:57
 msgid ""
 "Enter nine characters representing read, write, and execute permissions for "
 "user, group, and others, for example rwxr-xr-x"
 msgstr ""
+"Gib neun Zeichen ein, die Lese-, Schreib- und Ausführungsrechte für "
+"Benutzer, Gruppe und andere darstellen, zum Beispiel rwxr-xr-x"
 
 #: data/ui/HelpDialog.blp:14 data/ui/Window.blp:125
 msgid "Help"
@@ -171,10 +173,12 @@ msgid ""
 "The Unix permissions system is used to grant granulated access to file and "
 "directories on a Unix-like operating system"
 msgstr ""
+"Das Unix-Berechtigungssystem wird verwendet, um granularen Zugriff auf "
+"Dateien und Verzeichnisse in einem Unix-ähnlichen Betriebssystem zu gewähren"
 
 #: data/ui/HelpDialog.blp:50
 msgid "Permissions are granted to three groups:"
-msgstr ""
+msgstr "Berechtigungen werden an drei Gruppen vergeben:"
 
 #: data/ui/HelpDialog.blp:67
 msgid "The owner of the file"
@@ -182,41 +186,45 @@ msgstr "Der Besitzer der Datei"
 
 #: data/ui/HelpDialog.blp:77
 msgid "A group of users who share access to the file"
-msgstr ""
+msgstr "Eine Gruppe von Nutzern, welche sich den Zugriff auf die Datei teilen"
 
 #: data/ui/HelpDialog.blp:87
 msgid "All other users on the system"
-msgstr ""
+msgstr "Alle anderen Nutzer auf dem System"
 
 #: data/ui/HelpDialog.blp:97
 msgid "The types of permissions are:"
-msgstr ""
+msgstr "Die Arten von Berechtigungen sind:"
 
 #: data/ui/HelpDialog.blp:113
 msgid "Read (Symbolic: r, Numeric: 4)"
-msgstr ""
+msgstr "Lesen (Symbolisch: r, Numerisch: 4)"
 
 #: data/ui/HelpDialog.blp:114
 msgid "Allows viewing the file's contents or listing a directory's contents"
 msgstr ""
+"Erlaubt es, den Inhalt der Datei anzusehen oder den Inhalt eines "
+"Verzeichnisses aufzulisten"
 
 #: data/ui/HelpDialog.blp:123
 msgid "Write (Symbolically: w, Numerically: 2)"
-msgstr ""
+msgstr "Schreiben (Symbolisch: w, Numerisch: 2)"
 
 #: data/ui/HelpDialog.blp:124
 msgid ""
 "Allows modifying the file's contents or creating/deleting files within a "
 "directory"
 msgstr ""
+"Erlaubt es, den Inhalt einer Datei zu bearbeiten oder Dateien in einem "
+"Verzeichnis zu erstellen/löschen"
 
 #: data/ui/HelpDialog.blp:133
 msgid "Execute (Symbolically: x, Numerically: 1)"
-msgstr ""
+msgstr "Ausführen (Symbolisch x, Numerisch: 1)"
 
 #: data/ui/HelpDialog.blp:134
 msgid "Allows running the file as a program"
-msgstr ""
+msgstr "Erlaubt das Ausführen der Datei als Programm"
 
 #: data/ui/HelpDialog.blp:145
 msgid ""
@@ -224,64 +232,74 @@ msgid ""
 "permissions are represented as a string of ten characters, and numeric is "
 "represented by three numbers (octal notation) for Example:"
 msgstr ""
+"Berechtigungen können entweder symbolisch oder numerisch dargestellt werden. "
+"Symbolische Berechtigungen werden als eine Zeichenkette aus zehn Zeichen "
+"dargestellt, und numerische Berechtigungen werden durch drei Zahlen "
+"(Oktalnotation) dargestellt, zum Beispiel:"
 
 #: data/ui/HelpDialog.blp:150
 msgid "Symbolic: -rwxr-xr--"
-msgstr ""
+msgstr "Symbolisch: -rwxr-xr--"
 
 #: data/ui/HelpDialog.blp:160
 msgid "Numeric: 754"
-msgstr ""
+msgstr "Numerisch: 754"
 
 #: data/ui/HelpDialog.blp:176
 msgid "First character, the file type"
-msgstr ""
+msgstr "Erstes Zeichen, der Dateityp"
 
 #: data/ui/HelpDialog.blp:177
 msgid "can either be '-' for file or 'd' for directory"
-msgstr ""
+msgstr "kann entweder '-' für Datei oder 'd' für Verzeichnis sein"
 
 #: data/ui/HelpDialog.blp:181
 msgid "First three positions (after file type)"
-msgstr ""
+msgstr "Erste drei Stellen (nach dem Dateityp)"
 
 #: data/ui/HelpDialog.blp:182
 msgid ""
 "The read, write and execute permissions for the user, here we have 'rwx', "
 "which translated to 4+2+1 and adds to 7"
 msgstr ""
+"Die Lese-, Schreib- und Ausführungsberechtigungen für den Benutzer, hier "
+"haben wir 'rwx', was 4+2+1 ergibt und sich auf 7 addiert"
 
 #: data/ui/HelpDialog.blp:186
 msgid "Second three positions"
-msgstr ""
+msgstr "Zweite drei Stellen"
 
 #: data/ui/HelpDialog.blp:187
 msgid ""
 "The read, write and execute permissions for the group, here we have 'r-x', "
 "which translated to 4+0+1 and adds to 5"
 msgstr ""
+"Die Lese-, Schreib- und Ausführungsberechtigungen für die Gruppe, hier haben "
+"wir 'r-x', was 4+0+1 ergibt und sich auf 5 addiert"
 
 #: data/ui/HelpDialog.blp:191
 msgid "Last three positions"
-msgstr ""
+msgstr "Letzte drei Stellen"
 
 #: data/ui/HelpDialog.blp:192
 msgid ""
 "The read, write and execute permissions for other users, here we have 'r--', "
 "which translated to 4+0+0 and adds to 4"
 msgstr ""
+"Die Lese-, Schreib- und Ausführungsberechtigungen für andere Benutzer, hier "
+"haben wir 'r--', was 4+0+0 ergibt und sich auf 4 addiert"
 
 #: data/ui/HelpDialog.blp:198
 msgid "Example command"
-msgstr ""
+msgstr "Beispielbefehl"
 
 #: data/ui/HelpDialog.blp:207
 msgid "chmod 754 (file name)"
-msgstr ""
+msgstr "chmod 754 (Dateiname)"
 
 #: data/ui/HelpDialog.blp:217
 msgid "Special Permissions"
-msgstr ""
+msgstr "Besondere Berechtigungen"
 
 #: data/ui/HelpDialog.blp:226
 msgid ""
