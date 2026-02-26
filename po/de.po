@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 12:03+0300\n"
-"PO-Revision-Date: 2026-02-24 20:28+0100\n"
+"PO-Revision-Date: 2026-02-26 20:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -307,48 +307,55 @@ msgid ""
 "group, and other, they allow for additional privileges over the standard "
 "permission sets"
 msgstr ""
+"Sonderberechtigungen bilden eine vierte Zugriffsebene zusätzlich zu "
+"Benutzer, Gruppe und anderen. Sie ermöglichen zusätzliche Privilegien "
+"gegenüber den standardmäßigen Berechtigungssätzen"
 
 #: data/ui/HelpDialog.blp:231
 msgid "The three special permissions are:"
-msgstr ""
+msgstr "Die drei Sonderberechtigungen sind:"
 
 #: data/ui/HelpDialog.blp:264
 msgid "Special permissions can be represented symbolically or numerically."
 msgstr ""
+"Sonderberechtigungen können symbolisch oder numerisch dargestellt werden."
 
 #: data/ui/HelpDialog.blp:270
 msgid "Numeric representation:"
-msgstr ""
+msgstr "Numerische Darstellung:"
 
 #: data/ui/HelpDialog.blp:280
 msgid ""
 "They are denoted as an extra digit before the user, group and others "
 "permissions. Can Either be 0, 4, 2, 1 or any combination of them."
 msgstr ""
+"Sie werden als eine zusätzliche Ziffer vor den Benutzer-, Gruppen- und "
+"anderen Berechtigungen dargestellt. Sie können entweder 0, 4, 2, 1 oder eine "
+"beliebige Kombination davon sein."
 
 #: data/ui/HelpDialog.blp:290
 msgid "Symbolical representation:"
-msgstr ""
+msgstr "Symbolische Darstellung:"
 
 #: data/ui/HelpDialog.blp:307
 msgid "Goes where 'x' normally is for the user"
-msgstr ""
+msgstr "Steht dort, wo normalerweise 'x' beim Benutzer steht"
 
 #: data/ui/HelpDialog.blp:312
 msgid "Goes where 'x' normally is for the group"
-msgstr ""
+msgstr "Steht dort, wo normalerweise 'x' bei der Gruppe steht."
 
 #: data/ui/HelpDialog.blp:317
 msgid "Goes where 'x' normally is for others"
-msgstr ""
+msgstr "Steht dort, wo normalerweise 'x' beim Anderen steht."
 
 #: data/ui/HelpDialog.blp:323
 msgid "Symbolic: -rwsr-Sr-t"
-msgstr ""
+msgstr "Symbolisch -rwsr-Sr-t"
 
 #: data/ui/HelpDialog.blp:333
 msgid "Numeric: 7745"
-msgstr ""
+msgstr "Numerisch: 7745"
 
 #: data/ui/HelpDialog.blp:350
 msgid ""
