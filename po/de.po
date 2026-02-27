@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 12:03+0300\n"
-"PO-Revision-Date: 2026-02-26 20:12+0100\n"
+"PO-Revision-Date: 2026-02-27 21:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -343,11 +343,11 @@ msgstr "Steht dort, wo normalerweise 'x' beim Benutzer steht"
 
 #: data/ui/HelpDialog.blp:312
 msgid "Goes where 'x' normally is for the group"
-msgstr "Steht dort, wo normalerweise 'x' bei der Gruppe steht."
+msgstr "Steht dort, wo normalerweise 'x' bei der Gruppe steht"
 
 #: data/ui/HelpDialog.blp:317
 msgid "Goes where 'x' normally is for others"
-msgstr "Steht dort, wo normalerweise 'x' beim Anderen steht."
+msgstr "Steht dort, wo normalerweise 'x' beim Anderen steht"
 
 #: data/ui/HelpDialog.blp:323
 msgid "Symbolic: -rwsr-Sr-t"
@@ -362,139 +362,155 @@ msgid ""
 "Represented as '4' numerically. Symbolically, it is either 's' if the owner "
 "has execute permissions or 'S' if not."
 msgstr ""
+"Numerisch als '4' dargestellt. Symbolisch ist es entweder 's', wenn der "
+"Eigentümer Ausführungsberechtigungen hat, oder 'S', falls nicht."
 
 #: data/ui/HelpDialog.blp:355
 msgid ""
 "Represented as '2' numerically. Symbolically, it is either 's' if the group "
 "has execute permissions or 'S' if not."
 msgstr ""
+"Numerisch als '2' dargestellt. Symbolisch ist es entweder 's', wenn die "
+"Gruppe Ausführungsberechtigungen hat, oder 'S', falls nicht."
 
 #: data/ui/HelpDialog.blp:360
 msgid ""
 "Represented as '1' numerically. Symbolically, it is either 't' if the others "
 "have execute permissions or 'T' if not."
 msgstr ""
+"Numerisch als '1' dargestellt. Symbolisch ist es entweder 't', wenn andere "
+"Ausführungsberechtigungen haben, oder 'T', falls nicht."
 
 #: data/ui/HelpDialog.blp:366
 msgid "Example commands"
-msgstr ""
+msgstr "Beispielbefehle"
 
 #: data/ui/HelpDialog.blp:375
 msgid "chmod 7745 (file name)"
-msgstr ""
+msgstr "chmod 7745 (Dateiname)"
 
 #: data/ui/HelpDialog.blp:385
 msgid "Further reading"
-msgstr ""
+msgstr "Weiterführende Literatur"
 
 #: data/ui/Window.blp:5 data/ui/Window.blp:44
 #: data/io.github.ronniedroid.concessio.desktop:2
 #: data/io.github.ronniedroid.concessio.metainfo.xml:5 src/application.js:70
 msgid "Concessio"
-msgstr ""
+msgstr "Concessio"
 
 #: data/ui/Window.blp:52 data/io.github.ronniedroid.concessio.desktop:3
 #: data/io.github.ronniedroid.concessio.metainfo.xml:6
 msgid "Understand file permissions"
-msgstr ""
+msgstr "Verstehe Dateiberechtigungen"
 
 #: data/ui/Window.blp:56
 msgid "Get started"
-msgstr ""
+msgstr "Erste Schritte"
 
 #: data/ui/Window.blp:82
 msgid "Open"
-msgstr ""
+msgstr "Öffnen"
 
 #: data/ui/Window.blp:91
 msgid "Main Menu"
-msgstr ""
+msgstr "Hauptmenü"
 
 #: data/ui/Window.blp:130 data/shortcuts-dialog.blp:29
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastaturkürzel"
 
 #: data/ui/Window.blp:135
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: data/shortcuts-dialog.blp:7
 msgid "Open File"
-msgstr ""
+msgstr "Datei öffnen"
 
 #: data/shortcuts-dialog.blp:8
 msgid "Open file chooser dialog"
-msgstr ""
+msgstr "Dateiauswahldialog öffnen"
 
 #: data/shortcuts-dialog.blp:13
 msgid "Quit App"
-msgstr ""
+msgstr "Programm beenden"
 
 #: data/shortcuts-dialog.blp:18
 msgid "Close Window"
-msgstr ""
+msgstr "Fenster schließen"
 
 #: data/shortcuts-dialog.blp:23
 msgid "Help dialog"
-msgstr ""
+msgstr "Hilfedialog"
 
 #: data/shortcuts-dialog.blp:24
 msgid "Display the help dialog"
-msgstr ""
+msgstr "Zeige Hilfedialog an"
 
 #: data/shortcuts-dialog.blp:30
 msgid "Display this keyboard shortcuts window"
-msgstr ""
+msgstr "Zeige Fenster der Tastaturkürzel an"
 
 #: data/io.github.ronniedroid.concessio.desktop:9
 msgid "Permissions;Convertor;Calculator;"
-msgstr ""
+msgstr "Berechtigungen;Umwandler;Rechner;"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:11 src/application.js:74
 msgid ""
 "Concessio helps you understand and convert between unix permissions "
 "representations"
 msgstr ""
+"Concessio hilft Dir, Unix-Berechtigungsdarstellungen zu verstehen und "
+"zwischen ihnen zu konvertieren"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:13
 msgid ""
 "Convert between symbolic and numeric representations of UNIX file permissions"
 msgstr ""
+"Wandle zwischen symbolischen und numerischen Darstellungen von UNIX-"
+"Dateiberechtigungen um"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:14
 msgid "Use toggle buttons to update the symbolic and numeric fields"
 msgstr ""
+"Verwende Umschalter, um die symbolischen und numerischen Felder zu "
+"aktualisieren"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:15
 msgid "Open a file to read it's permissions and convert them"
-msgstr ""
+msgstr "Öffne eine Datei, um ihre Berechtigungen zu lesen und umzuwandeln"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:16
 msgid "Open the help dialog to read and understand the UNIX permissions system"
 msgstr ""
+"Öffne den Hilfedialog, um das UNIX-\n"
+" zu lesen und zu verstehen"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:30
 msgid ""
 "Application main page converting between numeric and symbolic permission"
 msgstr ""
+"Hauptseite der Anwendung zur Konvertierung zwischen numerischen und "
+"symbolischen Berechtigungen"
 
 #: data/io.github.ronniedroid.concessio.metainfo.xml:34
 msgid "Application help page, explaining unix permissions"
-msgstr ""
+msgstr "Hilfeseite des Programms, die Unix-Berechtigungen erklärt"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/application.js:84
 msgid "translator-credits"
-msgstr ""
+msgstr "Anerkennung an Übersetzer"
 
 #: src/application.js:87
 msgid "Special thanks to"
-msgstr ""
+msgstr "Besonderer Dank geht an"
 
 #: src/window.js:141
 msgid "Copied to clipboard!"
-msgstr ""
+msgstr "In die Zwischenablage kopiert!"
 
 #: src/window.js:162
 msgid "Failed to open file."
-msgstr ""
+msgstr "Öffnen der Datei fehlgeschlagen."
